@@ -1,0 +1,49 @@
+/* 
+Color breakdown:
+- darkest: #8D493A
+- medium: #A67B5B
+- light: #D0B8A8
+*/
+
+body {
+    background-color: #F8EDE3;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+.nav-link {
+    color: #8D493A;
+}
+
+.nav-link:hover {
+    color: #A67B5B
+}
+
+.btn-primary {
+    background-color: #8D493A;
+    border-color: #8D493A;
+}
+
+.btn-primary:hover {
+    background-color: #A67B5B
+}
+
+img[src="./assets/hampic.JPG"] {
+    border-radius: 50%;
+    border: 5px solid #A67B5B;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+span {
+    font-weight: bold;
+    color: #8D493A
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #8D493A;
+    color: inherit;
+}
+
